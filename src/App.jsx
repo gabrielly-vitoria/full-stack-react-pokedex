@@ -5,6 +5,6 @@ function App() {
     <div id="app">
       <MainPage />
     </div>
-  )
-}
-export default App
+  );
+};
+export default App;
