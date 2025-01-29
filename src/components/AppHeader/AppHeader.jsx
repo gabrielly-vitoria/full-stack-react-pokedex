@@ -1,4 +1,5 @@
 import './AppHeader.css'
+import Teste from '../Teste/Teste'
 
 function AppHeader() {
     return (
@@ -9,6 +10,7 @@ function AppHeader() {
             <p>
                 parágrafo teste
             </p>
+            <Teste/>
             
             <nav>
                 <ul>
