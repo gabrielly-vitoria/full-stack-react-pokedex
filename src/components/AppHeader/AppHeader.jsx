@@ -6,6 +6,9 @@ function AppHeader() {
             <h1>
                 React Pokédex!
             </h1>
+            <p>
+                parágrafo teste
+            </p>
             
             <nav>
                 <ul>
