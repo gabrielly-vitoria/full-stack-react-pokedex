@@ -1,8 +1,12 @@
 import AppHeader from "../components/AppHeader/AppHeader"
+import Testando from "../components/Testando/Testando"
 
 function MainPage(){
     return (
-        <AppHeader />
+        <div>
+            <AppHeader />
+            <Testando/>
+        </div>
     )
 }
 export default MainPage

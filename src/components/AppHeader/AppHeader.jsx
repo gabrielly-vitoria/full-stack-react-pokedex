@@ -1,4 +1,3 @@
-import './AppHeader.css'
 import Teste from '../Teste/Teste'
 
 function AppHeader() {
