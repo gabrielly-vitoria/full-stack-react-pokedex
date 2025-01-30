@@ -17,13 +17,12 @@ export const PokemonsListContainer = styled.div `
     @media screen and (max-width: 370px){
         grid-template-columns: repeat(1, minmax(100px, 1fr));
     }
-
-    flex: 1;
     
     padding: 24px 12px 0px 12px;
     gap: 12px;
 
-    align-self: stretch;
+    max-width: 99.1%;
+    width: 100%;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;

@@ -9,7 +9,7 @@ const api = axios.create({
 });
 
 // request function
-export const FetchPokemon = async (endpoint) => {
+export const fetchPokemon = async (endpoint) => {
     try {
         const response = await api.get(endpoint);
         return response.data;
@@ -18,5 +18,4 @@ export const FetchPokemon = async (endpoint) => {
         throw error;
     };
 };
-
 export default api;
