@@ -21,8 +21,8 @@ export const PokemonsListContainer = styled.div `
     padding: 24px 12px 0px 12px;
     gap: 12px;
 
-    max-width: 99.1%;
-    width: 100%;
+    align-self: stretch;
+    flex: 1;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
